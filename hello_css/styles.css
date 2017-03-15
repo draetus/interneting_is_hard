@@ -1,4 +1,64 @@
-body {
+body 
+{
 	color: #414141;  /* Dark gray */
-	background-color: #EEEEEE;	/* Light gray */
+	background-color: #FFFFFF;	/* Light gray */
+	font-size: 22px;
+}
+
+
+h1 
+{
+	font-size: 3em;
+}
+
+
+h2 
+{
+	font-size: 2em;
+}
+
+
+h1, h2, h3, h4, h5, h6 
+{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+
+
+ul 
+{
+	list-style-type: circle;
+}
+
+
+ol 
+{
+	list-style-type: upper-roman;
+}
+
+
+a 
+{
+	text-decoration: line-through;
+}
+
+
+p
+{
+	text-align: left;
+}
+
+
+em 
+{
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+strong 
+{
+	font-weight: normal;
+	font-style: italic;
 }
