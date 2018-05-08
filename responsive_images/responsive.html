@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'/>
+        <title>Responsive Design</title>
+        <link rel='stylesheet' href='styles.css'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+    </head>
+    <body>
+        <div class='page'>
+            <div class='section menu'>
+
+            </div>
+
+            <div class='section header'>
+                <div class='photo'>
+                    <picture>
+                        <source media='(min-width: 401px)'
+                                srcset='images/photo-big.jpg'/>
+                        <source media='(max-width: 400px)'
+                                srcset='images/photo-tall.jpg'/>
+                        <img src='images/photo-small.jpg' alt='Photo'/>
+                    </picture>
+                </div>
+            </div>
+
+            <div class='section content'>
+                <div class='illustration'>
+                    <img src='images/illustration-big.png' 
+                    srcset='images/illustration-small.png 1x,
+                            images/illustration-big.png 2x'
+                            style='max-width: 500px' alt='Illustration'/> <! The 1x is for standard resolution, and the 2x is for retina screens>
+                </div>
+            </div>
+
+            <div class='section sign-up'>
+                <img src='images/sign-up.svg' alt='Sign Up'/>
+            </div>
+
+            <div class='section feature-1'>
+                <img src='images/feature.svg' alt='Feature 1'/>
+            </div>
+
+            <div class='section feature-2'>
+                <img src='images/feature.svg' alt='Feature 2'/>
+            </div>
+
+            <div class='section feature-3'>
+                <img src='images/feature.svg' alt='Feature 3'/>
+            </div>
+        </div>
+    </body>
+</html>
